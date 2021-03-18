@@ -1357,7 +1357,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: #efefef;
+  background: url(https://i.loli.net/2021/03/17/KlrZEkzMT61msOB.jpg);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -3318,7 +3318,6 @@ blockquote footer cite:before {
 }
 #footer {
   position: relative;
-  background: #49b1f5;
   background-attachment: local;
   background-position: bottom;
   -webkit-background-size: cover;

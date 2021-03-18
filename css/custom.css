@@ -1,0 +1,59 @@
+/* 文章内容或者页面卡片透明度 */ 
+div#post{
+  background: rgba(255, 255, 255, 0.9);
+}
+div#page{
+  background: rgba(255, 255, 255, 0.9);
+}
+div#archive{
+  background: rgba(255, 255, 255, 0.9);
+}
+div#tag{
+  background: rgba(255, 255, 255, 0.9);
+}
+div#category{
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 页脚透明 */
+#footer{
+  background: transparent!important;
+}
+/* 头图透明 */
+#page-header{
+  background: transparent!important;
+}
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+#page-header.post-bg:before {
+  background-color: transparent!important;
+}
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"]
+  #footer::before{
+      background: transparent!important;
+    }
+[data-theme="dark"]
+  #page-header::before{
+    background: transparent!important;
+    }
+	
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+/* aplayer播放器 */
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
